@@ -39,7 +39,7 @@ def openOrSenior(data):
             to_return.append('Open')
             
     return to_return
-    # Hmmm.. Where to start?
+
     
     
 assert (openOrSenior([[45, 12],[55,21],[19, -2],[104, 20]]) == ['Open', 'Senior', 'Open', 'Senior'])
