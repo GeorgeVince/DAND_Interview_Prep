@@ -50,4 +50,4 @@ def abbreviate(s):
     return to_return
             
             
-print (abbreviate("sat-sat. the; a'cat, balloon; sits; sat; is:"))
+print (abbreviate("monolithic-balloon. balloon: balloon, monolithic; is. sits; sits. sits'"))
