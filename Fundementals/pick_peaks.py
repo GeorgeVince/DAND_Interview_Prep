@@ -47,9 +47,7 @@ def pick_peaks(arr):
                 elif arr[i + 1] == arr[i]:
                     i += 1
                 else:
-                    break
-
-                    
+                    break     
     
     return to_return
     
