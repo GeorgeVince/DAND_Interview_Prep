@@ -19,8 +19,10 @@ Good luck!
 
 """
 
+'Credit: 
+'https://stackoverflow.com/questions/8217650/change-some-lowercase-letters-to-uppercase-in-string
+
 def capitalize(s,ind):
-   return s
+    return ("".join(c.upper() if i in ind else c for i, c in enumerate(s)))
 
-
-print (capitalize("abcdef",[1,2,5]))
+print (capitalize("abcdef",[1,2,5,55]))
